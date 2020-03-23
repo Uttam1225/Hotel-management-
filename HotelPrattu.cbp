@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CheckingHotel" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CheckingHotel" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CheckingHotel" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Bar.h" />
+		<Unit filename="include/Bill.h" />
+		<Unit filename="include/CheckIn.h" />
+		<Unit filename="include/Check_Out.h" />
+		<Unit filename="include/GuestDetails.h" />
+		<Unit filename="include/Interface.h" />
+		<Unit filename="include/Restaurant.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Bar.cpp" />
+		<Unit filename="src/Bill.cpp" />
+		<Unit filename="src/CheckIn.cpp" />
+		<Unit filename="src/Check_Out.cpp" />
+		<Unit filename="src/GuestDetails.cpp" />
+		<Unit filename="src/Interface.cpp" />
+		<Unit filename="src/Restaurant.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
